@@ -1,0 +1,163 @@
+/* Сброс стилей */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* ================ Общие стили ================ */
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Стили для хедера */
+
+.header {
+  background-color: #fff;
+  padding: 28px 0;
+}
+
+.header-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: #4c5866;
+}
+
+/* Стили для секции 1 */
+
+.section-1 {
+  background-color: #fff;
+}
+
+.h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1;
+  color: #4c5866;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #85859b;
+  margin-bottom: 30px;
+}
+
+.header-button {
+  border: 1px solid #7875fe;
+  padding: 20px 50px;
+  width: 255px;
+  height: 70px;
+
+  font-weight: 400;
+  font-size: 20px;
+  color: #7875fe;
+}
+
+.img-section-1 {
+  width: 540px;
+}
+
+/* Стили для секции 2 */
+
+.section-2 {
+  background-color: #ebebeb;
+  padding: 90px 0;
+}
+
+.top-section {
+  width: 1110px;
+}
+
+.section-list {
+  width: 350px;
+  border-top: 2px solid #c0c0c0;
+  padding: 19px;
+}
+
+.section-img {
+  width: 160px;
+}
+
+.main-span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.title-span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #85859b;
+}
+
+.section-main-img {
+  width: 730px;
+}
+
+.h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Стили для секции 3 */
+
+.section-3 {
+  background-color: #fff;
+  padding: 90px 0;
+}
+
+.section-3-img {
+  width: 255px;
+  margin-bottom: 20px;
+}
+
+.h3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.section-3-span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b5b5bd;
+  /* margin-bottom: 8px; */
+}
+
+.text-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #85859b;
+  margin: 8px 0 20px 0;
+}
+
+.section-button {
+  width: 129px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #7875fe;
+  border: none;
+  background-color: #fff;
+}
