@@ -22,11 +22,28 @@ ul {
   list-style: none;
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
 /* Стили для хедера */
 
 .header {
   background-color: #fff;
   padding: 28px 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #c0c0c0;
 }
 
 .header-link {
@@ -35,10 +52,16 @@ ul {
   color: #4c5866;
 }
 
+.menu {
+  display: flex;
+  gap: 60px;
+}
+
 /* Стили для секции 1 */
 
 .section-1 {
   background-color: #fff;
+  padding-top: 39px;
 }
 
 .h1 {
@@ -57,7 +80,7 @@ ul {
   margin-bottom: 30px;
 }
 
-.header-button {
+.button {
   border: 1px solid #7875fe;
   padding: 20px 50px;
   width: 255px;
@@ -66,10 +89,25 @@ ul {
   font-weight: 400;
   font-size: 20px;
   color: #7875fe;
+
+  cursor: pointer;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 620px;
+}
+
+.main-info {
+  max-width: 451px;
 }
 
 .img-section-1 {
   width: 540px;
+  display: flex;
+  align-self: flex-end;
 }
 
 /* Стили для секции 2 */
@@ -80,13 +118,20 @@ ul {
 }
 
 .top-section {
-  width: 1110px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-list {
-  width: 350px;
-  border-top: 2px solid #c0c0c0;
+  max-width: 350px;
+  border-top: 1px solid #c0c0c0;
   padding: 19px;
+  /* display: flex;
+  justify-content: space-between;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end; */
 }
 
 .section-img {
@@ -119,6 +164,19 @@ ul {
   margin-bottom: 20px;
 }
 
+.wrapper-section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.text-wrapper {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Стили для секции 3 */
 
 .section-3 {
@@ -142,7 +200,6 @@ ul {
   font-weight: 400;
   font-size: 14px;
   color: #b5b5bd;
-  /* margin-bottom: 8px; */
 }
 
 .text-description {
@@ -151,6 +208,7 @@ ul {
   line-height: 1.7;
   color: #85859b;
   margin: 8px 0 20px 0;
+  max-width: 255px;
 }
 
 .section-button {
@@ -160,4 +218,77 @@ ul {
   color: #7875fe;
   border: none;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.wrapper-section-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Стили для секции 4 */
+
+.section-4 {
+  background-color: #ebebeb;
+  padding: 90px 0;
+}
+
+.section-4-list {
+  border: 1px solid #c4c4c4;
+  min-width: 255px;
+  min-height: 135px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для секции 5 */
+
+.section-5 {
+  background-color: #fff;
+  padding-top: 90px;
+}
+
+.section-5-h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.wrapper-section-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper-section-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-section-5 {
+  align-self: self-end;
+}
+
+/* Стили для футера */
+
+.footer {
+  background-color: #4c5866;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 30px;
 }
